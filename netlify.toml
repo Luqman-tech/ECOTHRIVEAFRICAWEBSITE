@@ -1,0 +1,15 @@
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[build]
+  command = "npm run build"
+  publish = "out"
+  environment = { NODE_VERSION = "16" }
+
+[build.environment]
+CONTENTFUL_SPACE_ID = "your-space-id"
+CONTENTFUL_ENVIRONMENT = "preview"
+CONTENTFUL_PREVIEW_TOKEN = "your-preview-token"
+CONTENTFUL_MANAGEMENT_TOKEN = "your-management-token"

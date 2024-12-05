@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "createdAt": "2024-12-03T22:40:53.245Z",
+  "workspaces": [
+    {
+      "name": "default",
+      "title": "ecothriveafricawebsite",
+      "basePath": "/",
+      "dataset": "production",
+      "schema": "97d170e1.create-schema.json"
+    }
+  ]
+}

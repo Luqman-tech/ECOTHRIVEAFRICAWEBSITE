@@ -1,0 +1,1 @@
+import{defineConfig as t,renderStudio as e}from"sanity";import{structureTool as o}from"sanity/structure";import{visionTool as i}from"@sanity/vision";const s=[],r=t({name:"default",title:"ecothriveafricawebsite",projectId:"imsiquls",dataset:"production",plugins:[o(),i()],schema:{types:s}});e(document.getElementById("sanity"),r,{reactStrictMode:!1,basePath:"/"});
